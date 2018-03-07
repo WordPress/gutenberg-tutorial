@@ -8,7 +8,7 @@ import Settings from './components/Settings';
 import Display from './components/Display';
 
 registerBlockType( 'learn-gutenberg/ex2-react', {
-    title: __( 'Learn Gutenberg Example 2: React', 'learn-gutenberg' ),
+    title: __( 'Learn Gutenberg Example: React', 'learn-gutenberg' ),
     category: 'widgets',
     supportHTML: false,
     attributes: {
@@ -17,7 +17,7 @@ registerBlockType( 'learn-gutenberg/ex2-react', {
             attribute: 'who',
         },
     },
-    edit({attributes, setAttributes, className, focus, id}) {
+    edit({attributes, setAttributes, className, isSelected, id}) {
         //Function to set attribute "who"
         //A reference to this function is passed to React component as prop
         //Function exits in this scope, so it can update attributes and flow changes down to Component

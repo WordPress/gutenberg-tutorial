@@ -80,7 +80,7 @@ var el = wp.element.createElement;
 
 
 registerBlockType('learn-gutenberg/ex2-react', {
-    title: __('Learn Gutenberg Example 2: React', 'learn-gutenberg'),
+    title: __('Learn Gutenberg Example: React', 'learn-gutenberg'),
     category: 'widgets',
     supportHTML: false,
     attributes: {
@@ -93,7 +93,7 @@ registerBlockType('learn-gutenberg/ex2-react', {
         var attributes = _ref.attributes,
             setAttributes = _ref.setAttributes,
             className = _ref.className,
-            focus = _ref.focus,
+            isSelected = _ref.isSelected,
             id = _ref.id;
 
         //Function to set attribute "who"
@@ -160,7 +160,7 @@ var Settings = function (_Component) {
                         //user htmlFor to set "for" html attribute
                         htmlFor: this.props.id
                     },
-                    __('Who', 'text-domain')
+                    __('Who', 'learn-gutenberg')
                 ),
                 wp.element.createElement('input', {
                     id: this.props.id,

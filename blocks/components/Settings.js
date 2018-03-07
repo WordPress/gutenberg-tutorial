@@ -15,7 +15,7 @@ export default class Settings extends Component {
                     //user htmlFor to set "for" html attribute
                     htmlFor={this.props.id}
                 >
-                    {__( 'Who', 'text-domain')}
+                    {__( 'Who', 'learn-gutenberg')}
                 </label>
                 <input
                     id={this.props.id}
