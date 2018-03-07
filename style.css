@@ -1,0 +1,141 @@
+/*
+Theme Name: Twenty Seventeen - Gutenberg Ready Child Theme
+Theme URI: https://learn.wordpress.org
+Description: This Twenty Seventeen Child Theme has added support for the Gutenberg editor and related functionality.
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Template: twentyseventeen
+Text Domain: twentyseventeen-gutenberg
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 Make Page Wrapper Widths 100%
+2.0 Make Main Content Centered
+3.0 Customize Default Block CSS
+4.0 Media Queries
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+1.0 Make Page Wrapper Widths 100%
+--------------------------------------------------------------*/
+
+.site-content .wrap,
+.has-sidebar:not(.error404) #primary,
+.has-sidebar #secondary,
+body:not(.has-sidebar):not(.page-one-column) .page-header,
+body.has-sidebar.error404 #primary .page-header,
+body.page-two-column:not(.archive) #primary .entry-header,
+body.page-two-column.archive:not(.has-sidebar) #primary .page-header,
+.blog:not(.has-sidebar) #primary article,
+.archive:not(.page-one-column):not(.has-sidebar) #primary article,
+.search:not(.has-sidebar) #primary article,
+.error404:not(.has-sidebar) #primary .page-content,
+.error404.has-sidebar #primary .page-content,
+body.page-two-column:not(.archive) #primary .entry-content,
+body.page-two-column #comments {
+  max-width: 100%;
+  width: 100%;
+  float: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* figure.alignleft {
+  max-width: 100% !important;
+  width: 100% !important;
+  float: none;
+  display: block;
+} */
+
+
+/*--------------------------------------------------------------
+2.0 Make Main Content Centered
+--------------------------------------------------------------*/
+
+body.page-two-column:not(.archive) #primary .entry-header,
+.entry-content > *:not( .alignwide ):not( .alignfull )  {
+  max-width: 50%;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.alignwide {
+  max-width: 75%;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.wp-block-image {
+  float: none;
+  display: block;
+}
+
+/*
+.alignleft img {
+  display: block;
+  float: left;
+  width: 60%;
+  margin-right: 2em;
+}
+
+.alignright img {
+  display: block;
+  float: right;
+  width: 60%;
+  margin-left: 2em;
+} */
+
+
+/*--------------------------------------------------------------
+3.0 Customize Default Block CSS
+--------------------------------------------------------------*/
+
+/* Style all header blocks that appear within the main content area */
+.entry-content h1,
+.entry-content h2,
+.entry-content h3,
+.entry-content h4,
+.entry-content h5,
+.entry-content h6 {
+  font-family: futura, san-serif;
+  text-transform: uppercase;
+}
+
+/* Customize the font-family for paragraphs with drop cap enabled */
+p.has-drop-cap:first-letter {
+  font-family: futura, san-serif;
+}
+
+/* Add borders to images in a photo gallery */
+.wp-block-gallery img {
+    border: 1px #ccc solid;
+    padding: 5px;
+}
+
+
+/*--------------------------------------------------------------
+4.0 Media Queries
+--------------------------------------------------------------*/
+
+@media only screen
+  and (max-width: 480px) {
+    body.page-two-column:not(.archive) #primary .entry-header,
+    .entry-content > *:not( .alignwide ):not( .alignfull )  {
+      max-width: 75%;
+      width: 75%;
+    }
+    .alignwide {
+      max-width: 90%;
+      width: 90%;
+    }
+}
