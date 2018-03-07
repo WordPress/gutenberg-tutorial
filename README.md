@@ -1,27 +1,32 @@
-# Custom Gutenberg Block
+# Learn Gutenberg Example: Using React
 
-This is a basic custom Gutenberg block. Files explained below.
+A sample Gutenberg Block to illustrate using React with Gutenberg.
 
-- [`block.js`](https://github.com/ahmadawais/Gutenberg-Boilerplate/blob/master/block/02-basic-esnext/block.js) — We register Custom Gutenberg block here.
-- [`block.build.js`](https://github.com/ahmadawais/Gutenberg-Boilerplate/blob/master/block/02-basic-esnext/block.build.js) — Built file from `block.js` via NPM Script and Webpack.
-- [`editor.css`](https://github.com/ahmadawais/Gutenberg-Boilerplate/blob/master/block/02-basic-esnext/editor.css) _ Block CSS for the editor.
-- [`style.css`](https://github.com/ahmadawais/Gutenberg-Boilerplate/blob/master/block/02-basic-esnext/style.css) — Block CSS for the front end.
-- [`index.php`](https://github.com/ahmadawais/Gutenberg-Boilerplate/blob/master/block/02-basic-esnext/index.php) — Enqueue block's assets for the editor and the front end.
-- [`.babelrc`](./.babelrc) — Babel custom configuration.
-- [`.gitignore`](./.gitignore) — Git ignore file to ignore node_modules and such other files.
-- [`package.json`](https://github.com/ahmadawais/Gutenberg-Boilerplate/blob/master/block/02-basic-esnext/package.json) & [`package-lock.json`](https://github.com/ahmadawais/Gutenberg-Boilerplate/blob/master/block/02-basic-esnext/package-lock.json) — NPM related file for holding NPM related metadata and `build`/`dev` NPM scripts.
-- [`webpack.config.js`](https://github.com/ahmadawais/Gutenberg-Boilerplate/blob/master/block/02-basic-esnext/webpack.config.js) — Webpack configuration file.
+> Want to learn more about Gutenberg development?
+> [This is plugin is example code for the tutorial "Enough React For Gutenberg".](https://learn.wordpress.org)
 
+## Are You New New to WordPress or Gutenberg?
 
-## Getting Started!
+[What Is Gutenberg?](https://wordpress.org/gutenberg)
 
-Read the files explained above. All of the files are heavily inline documented. All you have to do is following:
+For a quick start guide to WordPress development with Gutenberg: [The Gutenberg Handbook](https://wordpress.org/gutenberg/handbook/)
 
-- Open up your favorite terminal app.
+For a deep dive into extending Gutenberg and block development: [The Gutenberg Backpack](https://learn.wordpress.org)
+
+Do you learn by reading code? [Fork this repo to get 10+ example plugins and a theme to learn from, experiment with and make your own](https://github.com/WordPress/gutenberg-tutorial/fork).
+## Development
+
+You can just install this plugin and it will work. If you want to modify it, you will need to use npm.
+
+### Install NPM
 - Makes sure [NodeJS and NPM](https://nodejs.org/) are installed by running `node -v` or `npm -v` to check their versions.
-- Access this directory `cd /path/to/gutenberg-boilerplate/block/02-basic-esnext/`
+- Switch to this directory. 
 - Install node dependencies by running `node install` or `sudo node install`
-- For building the [`block.js`](https://github.com/ahmadawais/Gutenberg-Boilerplate/blob/master/block/02-basic-esnext/block.js) file into [`block.build.js`](https://github.com/ahmadawais/Gutenberg-Boilerplate/blob/master/block/02-basic-esnext/block.build.js) you can use run npm scripts. 
+
+## Development Scripts
 - To watch and build run `npm run dev`
 - To build for production run `npm run build`
 
+## Notes
+* This plugin was created from the [Gutenberg Boilerplate](https://github.com/ahmadawais/Gutenberg-Boilerplate).
+* License: GPL Version 2 Or Later
