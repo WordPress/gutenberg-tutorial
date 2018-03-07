@@ -1,5 +1,5 @@
-=== Learn Gutenberg: Example 2 With Plain Vanilla JavaScript ===
-Contributors: royboy789, bamadesigner
+===  Learn Gutenberg Example: Plain Vanilla JavaScript ===
+Contributors: guavaworks, bamadesigner
 Donate link: http://wordpressfoundation.org/donate/
 Tags: gutenberg
 Requires at least: 4.4

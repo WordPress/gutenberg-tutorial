@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name:     Learn Gutenberg Plain JS
+ * Plugin Name:     Learn Gutenberg Example: Plain Vanilla JavaScript
  * Plugin URI:      https://learn.wordpress.org
  * Description:     PLUGIN DESCRIPTION HERE
  * Author:          YOUR NAME HERE
