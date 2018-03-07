@@ -1,0 +1,6 @@
+{
+  "name": "learn-gutenberg/ex2-event-block",
+  "description": "A static block demonstrating the relationship of attributes to saved HTML markup, in both directions.",
+  "version": "1.0.0",
+  "type": "wordpress-plugin"
+}
