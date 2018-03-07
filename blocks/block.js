@@ -1,6 +1,7 @@
 ( function( wp ) {
-
+    //Render function
     var el = wp.element.createElement;
+    //Translation function
     var __ = wp.i18n.__;
     wp.blocks.registerBlockType( 'learn-gutenberg/ex2-vue', {
         title: __( 'Learn Gutenberg Example: VueJS', 'learn-gutenberg' ),
@@ -9,14 +10,13 @@
         attributes: {
             who: {
                 selector: 'p',
-                attribute: 'who',
-            },
+                attribute: 'who'
+            }
         },
         edit: function( props ) {
             var attributes = props.attributes,
                 setAttributes= props.setAttributes,
                 className = props.className,
-                focus = props.focus,
                 id = props.id;
 
             //Define id to mount VueJs app into
@@ -47,7 +47,7 @@
                     }
                 },
                 //template for Vue app
-                template: '<div><p>who: {{who}}</p><input v-model="who" /></div>',
+                template: '<div><p>Who: {{who}}</p><input v-model="who" /></div>',
             });
 
             //return using WordPress createElement
