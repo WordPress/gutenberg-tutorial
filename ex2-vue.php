@@ -1,11 +1,11 @@
 <?php
 /**
- * Plugin Name:     Learn Gutenberg Example 2: VueJS
+ * Plugin Name:     Learn Gutenberg Example: VueJS
  * Plugin URI:      https://learn.wordpress.org
  * Description:     PLUGIN DESCRIPTION HERE
  * Author:          YOUR NAME HERE
  * Author URI:      YOUR SITE HERE
- * Text Domain:     vuetest
+ * Text Domain:     learn-gutenberg
  * Domain Path:     /languages
  * Version:         0.1.0
  *
