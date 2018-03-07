@@ -1,0 +1,15 @@
+/**
+ * The following styles get applied both on the front of your site and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-learn-gutenberg-ex4-enclosing-shortcode {
+	background: #ffc;
+	border: 1px solid #ff7;
+	color: #222;
+	margin: 1em auto;
+	max-width: 740px;
+	padding: 2rem;
+	box-shadow: 0 3px 5px rgba(0,0,0,.15);
+}
