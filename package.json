@@ -1,0 +1,17 @@
+{
+  "name": "ex6-counter-example",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "cgb-scripts start",
+    "build": "cgb-scripts build",
+    "eject": "cgb-scripts eject"
+  },
+  "dependencies": {
+    "cgb-scripts": "^1.9.4"
+  },
+  "devDependencies": {
+    "prop-types": "^15.6.0",
+    "react-redux-provide": "^7.0.6"
+  }
+}
