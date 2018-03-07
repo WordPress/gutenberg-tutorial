@@ -1,0 +1,11 @@
+{
+  "name": "learn-gutenberg/ex2-plainjs",
+  "version": "0.1.0",
+  "main": "blocks/block.js",
+  "devDependencies": {
+
+  },
+  "scripts": {
+
+  }
+}

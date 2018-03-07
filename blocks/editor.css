@@ -1,0 +1,26 @@
+.wp-block-learn-gutenberg-ex2-plainjs .display-ex2-plainjs-who {
+    padding: 0 10px 10px;
+    margin: 0;
+}
+
+.wp-block-learn-gutenberg-ex2-plainjs .display-ex2-plainjs-who .ex2-plainjs-who {
+    margin: 0 0 0 8px;
+}
+
+.wp-block-learn-gutenberg-ex2-plainjs .edit-ex2-plainjs-who {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border: 1px solid #aaa;
+}
+
+.wp-block-learn-gutenberg-ex2-plainjs .edit-ex2-plainjs-who label {
+    margin: 0 10px 0 0;
+    font-size: 90%;
+}
+
+.wp-block-learn-gutenberg-ex2-plainjs .edit-ex2-plainjs-who input {
+    border: 1px solid #aaa;
+    border-radius: 0;
+    flex-grow: 1;
+}
