@@ -79,10 +79,22 @@ function learn_gutenberg_ex3_metabox_legacy_render() {
 add_action( 'enqueue_block_editor_assets', 'learn_gutenberg_ex3_enqueue_block_editor_assets' );
 function learn_gutenberg_ex3_enqueue_block_editor_assets() {
     $dir = dirname( __FILE__ );
-    $js = '/ex3.js';
-    wp_enqueue_script( 'learn-gutenberg/ex3', plugins_url( $js, __FILE__ ), array(
-        'wp-blocks',
-    ), filemtime( "$dir/$js" ) );
+    $metablock_js = '/metablock.js';
+    wp_enqueue_script(
+        'learn-gutenberg/ex3-metablock',
+        plugins_url( $metablock_js, __FILE__ ),
+        array( 'wp-blocks' ),
+        filemtime( "$dir/$metablock_js" )
+    );
+
+    $sidebar_js = '/sidebar.js';
+    wp_enqueue_script(
+        'learn-gutenberg/ex3-sidebar',
+        plugins_url( $sidebar_js, __FILE__ ),
+        array( 'wp-blocks', 'wp-edit-post' ),
+        filemtime( "$dir/$sidebar_js" ),
+        true // The sidebar enqueue MUST be in the footer, so everything it relies on loads
+    );
 }
 
 
