@@ -1,8 +1,8 @@
 # Learn Gutenberg Example: Twenty Seventeen Child Theme For Gutenberg
-A sample Gutenberg Block to replace what would have otherwise been an enclosing shortcode.
+A Twenty Seventeen Child Theme to demonstrate how to customize WordPress themes with blocks in mind.
 
 > Want to learn more about Gutenberg development?
-> [This is plugin is example code for the tutorial "Gutenberg For Themers".](https://learn.wordpress.org)
+> [This is theme is example code for the tutorial "Gutenberg For Themers".](https://learn.wordpress.org)
 
 ## Are You New New to WordPress or Gutenberg?
 
