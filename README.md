@@ -1,3 +1,5 @@
+# Learn Gutenberg Example: Communicating Between Blocks
+
 This plugin demonstrates the basics of using [wp.data](https://github.com/WordPress/gutenberg/tree/master/data) - the Redux-abstraction in Gutenberg. This is based on the [counter example](https://github.com/reactjs/redux/tree/master/examples/counter) in [Redux](https://redux.js.org/). It is "translated into WordPress" to show how these concepts overlap.
 
 There are two blocks. One shows the count, the other has a plus/minus button. Simple, but illustrates cross-block communication in the editor, which is neato.
