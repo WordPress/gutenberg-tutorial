@@ -1,5 +1,5 @@
-# Example Code From The Gutenberg Backpack Course
-[The Gutenberg Backpack](https://learn.wordpress.org) is a deep dive into WordPress development with Gutenberg. This is the example code for that course, presented as functional plugins and a theme.
+# Example Code From The Developer’s Guide to the Block Editor Course
+The [Developer’s Guide to the Block Editor](https://learn.wordpress.org) course is a deep dive into WordPress development with Gutenberg. This is the example code for that course, presented as functional plugins and a theme.
 
 You can use this code to inspire your next Gutenberg block or even use it as the beginning of your own creation. Not sure how to create a block or what a block or a Gutenberg is yet? No worries, we have detailed tutorials for all of these concepts and code.
 
@@ -7,7 +7,6 @@ You can use this code to inspire your next Gutenberg block or even use it as the
 >[What Is Gutenberg?](https://wordpress.org/gutenberg)
 
 * For a quick start guide to WordPress development with Gutenberg: [The Gutenberg Handbook](https://wordpress.org/gutenberg/handbook/)
-
 
 ## What's Included?
 ### Basic Blocks Plugins With Simple Controls
@@ -32,7 +31,6 @@ You can use this code to inspire your next Gutenberg block or even use it as the
 > This is example code for [Advanced Topics In Block Development](https://learn.wordpress.org)
 * [A basic "counter" plugin showing communicating between two blocks using WordPress' Redux abstraction](https://github.com/WordPress/gutenberg-tutorial/tree/counter)
 * __Coming Soon__ Complex example of re-using components between Gutenberg, other admin screens and the front-end as well as nested and multi-column blocks created programmatically
-
 
 ## License
 Like WordPress, this code is licensed under the terms of the GNU General Public License Version 2 or greater. __Please__ feel [free](https://wordpress.org/about/philosophy#gpl) to modify, reuse, or redistribute this code. That's what is here for.
