@@ -23,15 +23,22 @@ This plugin should just work, since the built CSS and JavaScript files are commi
 
 Below you will find some information on how to use npm scripts to develop this plugin.
 
-### `npm start`
+### Install NPM
+- Makes sure [NodeJS and NPM](https://nodejs.org/) are installed by running `node -v` or `npm -v` to check their versions.
+- Switch to this directory. 
+- Install node dependencies by running `node install` or `sudo node install`
+
+### Development Scripts
+
+#### `npm start`
 - Use to compile and run the block in development mode.
 - Watches for any changes and reports back any errors in your code.
 
-### `npm run build`
+#### `npm run build`
 - Use to build production code for your block inside `dist` folder.
 - Runs once and reports back the gzip file sizes of the produced code.
 
-### `npm run eject`
+#### `npm run eject`
 - Use to eject your plugin out of `create-guten-block`.
 - Provides all the configurations so you can customize the project as you want.
 - It's a one-way street, `eject` and you have to maintain everything yourself.
