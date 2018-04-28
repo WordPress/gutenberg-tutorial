@@ -11,7 +11,7 @@ A sample Gutenberg Block to illustrate using React with Gutenberg.
 
 For a quick start guide to WordPress development with Gutenberg: [The Gutenberg Handbook](https://wordpress.org/gutenberg/handbook/)
 
-For a deep dive into extending Gutenberg and block development: [The Gutenberg Backpack](https://learn.wordpress.org)
+For a deep dive into extending Gutenberg and block development: [Developer’s Guide to the Block Editor](https://learn.wordpress.org)
 
 Do you learn by reading code? [Fork this repo to get 10+ example plugins and a theme to learn from, experiment with and make your own](https://github.com/WordPress/gutenberg-tutorial/fork).
 ## Development
