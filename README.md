@@ -9,6 +9,10 @@ You can use this code to inspire your next Gutenberg block or even use it as the
 * For a quick start guide to WordPress development with Gutenberg: [The Gutenberg Handbook](https://wordpress.org/gutenberg/handbook/)
 
 ## What's Included?
+Each example plugin or theme has a branch in this repo. Here you will find a list of all of the examples, with links to their branch. You can download the plugin or theme using the green "Clone or Download" button and then selecting download ZIP. 
+
+Alternatively, you may use git to clone the linked branch.
+
 ### Basic Blocks Plugins With Simple Controls
 > This is example code for [Introduction To Block Basics](https://learn.wordpress.org)
 * [Using plain, vanilla JavaScript. Uses no build tooling or ESNext syntax](https://github.com/wordpress/gutenberg-tutorial/tree/plainjs)
